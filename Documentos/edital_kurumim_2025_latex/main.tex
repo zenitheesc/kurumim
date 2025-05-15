@@ -1,0 +1,42 @@
+\documentclass[brazilian, 12pt, oneside, a4paper]{article}
+\input{structure}
+\begin{document}
+
+\thispagestyle{empty}
+%capa
+\includepdf[fitpaper]{Figures/Capa2.pdf}
+\cleardoublepage
+
+% Sumario
+\pagestyle{empty}
+\tableofcontents
+\cleardoublepage
+
+% Texto
+\pagestyle{fancy}
+\input{missao}
+
+\cleardoublepage
+\input{planejamento}
+
+\cleardoublepage
+\input{desenvolvimento}
+
+\cleardoublepage
+\input{lancamento}
+
+\cleardoublepage
+\input{resultados}
+        
+\cleardoublepage
+\input{premiacoes}
+
+\cleardoublepage
+\input{requisitos}
+
+\cleardoublepage
+\input{calendario}
+
+\input{apendices}
+    
+\end{document}
